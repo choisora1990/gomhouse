@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>곰페이지</title>
+    <link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <style>
+        /* 꾸미기 */
+        .hero-section {
+            background-color: #333; /* 배경색을 어두운 색으로 설정 */
+            color: white; /* 글씨를 흰색으로 설정 */
+            padding: 100px 0;
+        }
+
+        .hero-title {
+            font-size: 4.5rem; /* 제목의 글씨 크기 설정 */
+            margin-bottom: 30px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem; /* 소제목의 글씨 크기 설정 */
+        }
+        /* 버튼과 Hero 섹션 사이 간격 추가 */
+        .button-section {
+            margin-top: 40px;
+        }
+
+        /* 카드 호버 효과 */
+        .card:hover {
+            transform: scale(1.05); /* 마우스 호버시 카드를 약간 확대 */
+            transition: transform 0.2s ease-in-out; /* 부드러운 확대 효과를 추가 */
+        }
+
+        /* 카드 사이 간격 조절 */
+        .card-container {
+            margin-top: 0.5cm;
+        }
+
+        /* 카드 높이 조절 */
+        .card {
+            height: 100%;
+        }
+
+        /* 이미지 크기 및 잘라내기 */
+        .card-img {
+            height: 200px; /* 원하는 이미지 높이로 조정 */
+            object-fit: cover; /* 이미지를 가득 채우도록 설정 */
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero 섹션 시작 -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="hero-title">곰탱이 집</h1>
+            <p class="hero-subtitle">상탱이와 솔탱이의 행복한집</p>
+        </div>
+    </section>
+    <!-- Hero 섹션 끝 -->
+    
+
+    <div class="container mt-5">
+        <div class="row card-container">
+            <!-- 솔탱 카드 -->
+            <div class="col-md-4 mb-4"> <!-- mb-4 클래스 추가 -->
+                <a href="https://namu.wiki/w/ENFP" target="_blank">
+                    <div class="card h-100" style="width: 18rem">
+                        <img src="솔탱.PNG" class="card-img-top card-img" alt="최소라" />
+                        <div class="card-body">
+                            <h5 class="card-title">솔탱</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">예쁨</h6>
+                            <p class="card-text">ENFP입니다. 상냥합니다.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- 상탱 카드 -->
+            <div class="col-md-4 mb-4"> <!-- mb-4 클래스 추가 -->
+                <a href="https://namu.wiki/w/ESTJ" target="_blank">
+                    <div class="card h-100" style="width: 18rem">
+                        <img src="상탱.PNG" class="card-img-top card-img" alt="이상준" />
+                        <div class="card-body">
+                            <h5 class="card-title">상탱</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">잘생김</h6>
+                            <p class="card-text">ESTJ입니다. 똑똑합니다.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- 곰탱 카드 -->
+            <div class="col-md-4 mb-4"> <!-- mb-4 클래스 추가 -->
+                <a href="https://www.ralphlauren.co.kr/?utm_source=google&utm_medium=paidsearch&utm_campaign=KR|KO|SEA|BKW|Ralph_Lauren|Exact&utm_term=%EB%9E%84%ED%94%84%EB%A1%9C%EB%A0%8C&utm_content=Ralph_Lauren|BKW|Exact&gad_source=1&gclid=Cj0KCQiAyeWrBhDDARIsAGP1mWTu83_wc0YJxDzOA338XunoyJdG2UyMO40TCZEA6rOMuPscGNX7xQsaAgoHEALw_wcB
+                " target="_blank">
+                    <div class="card h-100" style="width: 18rem">
+                        <img src="곰탱.jpg" class="card-img-top card-img" alt="곰탱" />
+                        <div class="card-body">
+                            <h5 class="card-title">곰탱</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">귀여움</h6>
+                            <p class="card-text">랄프로렌을 좋아합니다.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
